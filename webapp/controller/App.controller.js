@@ -6,7 +6,7 @@ sap.ui.define([
 ], (Controller, MessageToast, JSONModel, ResourceModel) => {
   "use strict";
 
-  return Controller.extend("ui5.walkthrough.controller.App", {
+  return Controller.extend("sap-ui5-walkthrough.controller.App", {
     onInit() {
         // set data model on view
         const oData = {
@@ -19,7 +19,7 @@ sap.ui.define([
 
         // set i18n model on view
         const i18nModel = new ResourceModel({
-           bundleName: "ui5.walkthrough.i18n.i18n"
+           bundleName: "sap-ui5-walkthrough.i18n.i18n"
         });
         this.getView().setModel(i18nModel, "i18n");
      },
