@@ -3,10 +3,44 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "proxy": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "ui5-middleware-proxy-basicauth": "^0.0.6",
+    "ui5-middleware-simpleproxy": "^3.2.15"
+  },
+  "dependencies": {
+    "agent-base": "^7.1.1",
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^2.0.1",
+    "braces": "^3.0.3",
+    "debug": "^4.3.4",
+    "dotenv": "^16.4.5",
+    "eventemitter3": "^4.0.7",
+    "express": "^4.19.2",
+    "fill-range": "^7.1.1",
+    "follow-redirects": "^1.15.6",
+    "http-proxy": "^1.18.1",
+    "http-proxy-agent": "^7.0.2",
+    "http-proxy-middleware": "^2.0.6",
+    "https-proxy-agent": "^7.0.4",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "is-plain-obj": "^3.0.0",
+    "micromatch": "^4.0.7",
+    "minimatch": "^7.4.6",
+    "ms": "^2.1.2",
+    "picomatch": "^2.3.1",
+    "proxy-from-env": "^1.1.0",
+    "requires-port": "^1.0.0",
+    "to-regex-range": "^5.0.1",
+    "ui5-utils-express": "^1.3.0",
+    "undici-types": "^5.26.5"
+  },
   "description": ""
 }
